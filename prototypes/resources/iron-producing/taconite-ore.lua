@@ -3,15 +3,15 @@ local resource_autoplace = require("resource-autoplace")
 data:extend({
   {
     type = "autoplace-control",
-    name = "low-grade-hematite-ore",
+    name = "taconite-ore",
     category = "resource",
     richness = true,
     order = "b-b"
   },
   {
     type = "resource",
-    name = "low-grade-hematite-ore",
-    icon = "__hellscape-refining__/graphics/icons/low-grade-hematite-ore.png",
+    name = "taconite-ore",
+    icon = "__hellscape-refining__/graphics/icons/taconite-ore.png",
     icon_size = 64,
 
     flags = {"placeable-neutral"},
@@ -19,7 +19,7 @@ data:extend({
 
     minable = {
       mining_time = 1.0,
-      result = "low-grade-hematite-ore"
+      result = "raw-taconite-ore"
     },
 
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -29,7 +29,7 @@ data:extend({
     stage_counts = {15000, 8000, 4000, 2000, 1000, 500, 250, 125},
     stages = {
       sheet = {
-        filename = "__hellscape-refining__/graphics/entity/low-grade-hematite-ore/low-grade-hematite-ore.png",
+        filename = "__hellscape-refining__/graphics/entity/taconite-ore/taconite-ore.png",
         priority = "extra-high",
         size = 64,
         frame_count = 8,
@@ -41,7 +41,7 @@ data:extend({
     -- Worldgen
     autoplace = resource_autoplace.resource_autoplace_settings
     {
-      name = "low-grade-hematite-ore",
+      name = "taconite-ore",
       order = "b-b",
       base_density = 6,
       base_spots_per_km2 = 0.9,

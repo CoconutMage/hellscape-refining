@@ -1,8 +1,18 @@
 local resource_autoplace = require("resource-autoplace")
 -- Optional but commonly used by mods: ensures the patch set is initialized for this resource
-resource_autoplace.initialize_patch_set("high-grade-hematite-ore", true)
-resource_autoplace.initialize_patch_set("low-grade-hematite-ore", true)
 resource_autoplace.initialize_patch_set("oil-reservoir", true)
+
+resource_autoplace.initialize_patch_set("hematite-ore", true)
+resource_autoplace.initialize_patch_set("magnetite-ore", false)
+resource_autoplace.initialize_patch_set("taconite-ore", false)
+
+resource_autoplace.initialize_patch_set("anthracite-coal-ore", false)
+resource_autoplace.initialize_patch_set("bituminous-coal-ore", false)
+resource_autoplace.initialize_patch_set("lignite-coal-ore", true)
+resource_autoplace.initialize_patch_set("peat-ore", true)
+
+resource_autoplace.initialize_patch_set("copper-oxide-ore", true)
+resource_autoplace.initialize_patch_set("copper-sulfate-ore", false)
 
 local function enable_resource_on_planet(planet_name, resource_name)
   data.raw.planet.nauvis.map_gen_settings.autoplace_controls[resource_name] = {}
@@ -31,9 +41,19 @@ local function enable_resource_on_planet(planet_name, resource_name)
   --  planet.map_gen_settings.autoplace_settings.entity.settings[resource_name] or {}
 end
 
-enable_resource_on_planet("nauvis", "high-grade-hematite-ore")
-enable_resource_on_planet("nauvis", "low-grade-hematite-ore")
 enable_resource_on_planet("nauvis", "oil-reservoir")
+
+enable_resource_on_planet("nauvis", "hematite-ore")
+enable_resource_on_planet("nauvis", "magnetite-ore")
+enable_resource_on_planet("nauvis", "taconite-ore")
+
+enable_resource_on_planet("nauvis", "anthracite-coal-ore")
+enable_resource_on_planet("nauvis", "bituminous-coal-ore")
+enable_resource_on_planet("nauvis", "lignite-coal-ore")
+enable_resource_on_planet("nauvis", "peat-ore")
+
+enable_resource_on_planet("nauvis", "copper-oxide-ore")
+enable_resource_on_planet("nauvis", "copper-sulfate-ore")
 
 
 -- data-final-fixes.lua

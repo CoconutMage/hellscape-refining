@@ -11,3 +11,10 @@ data:extend({
     name = "oil-gas-separation"
   }
 })
+
+data:extend({
+  {
+    type = "fuel-category",
+    name = "solid-chemical"
+  }
+})

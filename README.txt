@@ -17,7 +17,12 @@ In-Situ leaching?
 Polymetallic nodules?
 
 
+Minimum pre-industrial sources but few for certain trees like oil to bootstrap chemistry
+
+
 Machines have wear and tear over time? https://mods.factorio.com/mod/MaintenanceMadness
+Mines use explosives for blasting?
+Blasting before surface mining? DEO document
 
 
 Play around with Noise Expressions?
@@ -45,11 +50,11 @@ Gangue
 Ores
 - Iron
 Ore Types:
-    Hematite (DSO)
+    High-Grade Hematite (DSO)
     Magnetite (Less impurities, easier route to steel)
-    Taconite (Taconite)
+    Taconite (Hematite or Magnetite mostly, Banded Iron Formation)
     Titomagnetite
-    Siderite (Carbonate ore and typically found with manganese?)
+    Siderite (Carbonate ore and typically found with manganese, zinc or magnesium?)
 	Nickel-Iron Alloy in space
 - Copper
 Notes:
@@ -103,6 +108,9 @@ Ore Types:
 - Flourite
 - Coal
 	Peat?
+	Anthrocite
+	Bitumen(ous?)
+	Lignite
 
 - Zircon?
 - Strontium?
