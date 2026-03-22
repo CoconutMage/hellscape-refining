@@ -2,7 +2,7 @@ data:extend({
     {
         type = "fuel-category",
         name = "solid-chemical"
-      }
+    },
     {
         type = "item",
         name = "raw-anthracite-coal",

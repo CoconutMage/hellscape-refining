@@ -11,8 +11,8 @@ data:extend({
     {
         type = "resource",
         name = "hematite-ore",
-        icon = "__hellscape-refining__/graphics/icons/hematite-ore.png",
-        icon_size = 64,
+        icon = "__hellscape-refining__/graphics/icons/temp-hematite-ore.png",
+        icon_size = 128,
 
         flags = {"placeable-neutral"},
         order = "a-b-a",
@@ -26,14 +26,14 @@ data:extend({
         selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 
         -- Patch visuals
-        stage_counts = {15000, 8000, 4000, 2000, 1000, 500, 250, 125},
+        stage_counts = {15000},
         stages = {
         sheet = {
-            filename = "__hellscape-refining__/graphics/entity/hematite-ore/hematite-ore.png",
+            filename = "__hellscape-refining__/graphics/entity/hematite-ore/temp-hematite-ore.png",
             priority = "extra-high",
-            size = 64,
-            frame_count = 8,
-            variation_count = 8,
+            size = 180,
+            frame_count = 1,
+            variation_count = 1,
             -- optional tint, scale, etc.
         }
         },
