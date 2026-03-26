@@ -68,7 +68,7 @@ Ore:
 	Bauxite (Iron Oxide, Silica, titania impurities)
 	Significant amount comes from recycling
 	
-	Alunite (hydrothermal/volcanic sulfate mineral studied for alumina production via roasting/leaching)
+	Alunite (hydrothermal/volcanic sulfide mineral studied for alumina production via roasting/leaching)
 	Coal fly ash contains alumina
 	Industrial/Ruined world allows for easy Aluminum recycling?
 	Low/High grade bauxite?

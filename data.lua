@@ -12,8 +12,8 @@ require("prototypes.resources.oil-producing.oil-reservoir")
 require("prototypes.resources.iron-producing.hematite-ore")
 require("prototypes.resources.iron-producing.magnetite-ore")
 
-require("prototypes.resources.iron-producing.copper-oxide-ore")
-require("prototypes.resources.iron-producing.copper-sulfate-ore")
+require("prototypes.resources.copper-producing.copper-oxide-ore")
+require("prototypes.resources.copper-producing.copper-sulfide-ore")
 
 require("prototypes.resources.coal-producing.anthracite-coal-ore")
 require("prototypes.resources.coal-producing.bituminous-coal-ore")
@@ -26,6 +26,7 @@ require("prototypes.items.deep-oil-drill")
 require("prototypes.items.bore-drill")
 require("prototypes.items.coal")
 require("prototypes.items.iron-ores")
+require("prototypes.items.copper-ores")
 
 
 require("prototypes.entities.oil-gas-separator")

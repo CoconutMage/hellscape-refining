@@ -3,44 +3,45 @@ local resource_autoplace = require("resource-autoplace")
 data:extend({
     {
         type = "autoplace-control",
-        name = "copper-sulfate-ore",
+        name = "copper-sulfide-ore",
         richness = true,
         category = "resource",
         order = "b-a"
     },
     {
         type = "resource",
-        name = "copper-sulfate-ore",
-        icon = "__hellscape-refining__/graphics/icons/copper-sulfate-ore.png",
-        icon_size = 64,
+        name = "copper-sulfide-ore",
+        icon = "__hellscape-refining__/graphics/icons/temp-copper-sulfide-ore.png",
+        icon_size = 128,
 
         flags = {"placeable-neutral"},
         order = "a-b-a",
 
         minable = {
         mining_time = 1.0,
-        result = "raw-copper-sulfate"
+        result = "raw-copper-sulfide"
         },
 
         collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
         selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 
         -- Patch visuals
-        stage_counts = {15000, 8000, 4000, 2000, 1000, 500, 250, 125},
+        stage_counts = {15000},
         stages = {
         sheet = {
-            filename = "__hellscape-refining__/graphics/entity/copper-sulfate-ore/copper-sulfate-ore.png",
+            filename = "__hellscape-refining__/graphics/entity/temp-copper-sulfide-ore.png",
             priority = "extra-high",
-            size = 64,
-            frame_count = 8,
-            variation_count = 8,
+            size = 128,
+            frame_count = 1,
+            variation_count = 1,
+            scale = 0.25,
             -- optional tint, scale, etc.
         }
         },
 
         -- Worldgen
         autoplace = resource_autoplace.resource_autoplace_settings{
-            name = "copper-sulfate-ore",
+            name = "copper-sulfide-ore",
             order = "b-a",
             base_density = 8,
             base_spots_per_km2 = 1.2,

@@ -11,8 +11,8 @@ data:extend({
     {
         type = "resource",
         name = "copper-oxide-ore",
-        icon = "__hellscape-refining__/graphics/icons/copper-oxide-ore.png",
-        icon_size = 64,
+        icon = "__hellscape-refining__/graphics/icons/temp-copper-oxide-ore.png",
+        icon_size = 128,
 
         flags = {"placeable-neutral"},
         order = "a-b-a",
@@ -26,14 +26,15 @@ data:extend({
         selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
 
         -- Patch visuals
-        stage_counts = {15000, 8000, 4000, 2000, 1000, 500, 250, 125},
+        stage_counts = {15000},
         stages = {
         sheet = {
-            filename = "__hellscape-refining__/graphics/entity/copper-oxide-ore/copper-oxide-ore.png",
+            filename = "__hellscape-refining__/graphics/entity/temp-copper-oxide-ore.png",
             priority = "extra-high",
-            size = 64,
-            frame_count = 8,
-            variation_count = 8,
+            size = 128,
+            frame_count = 1,
+            variation_count = 1,
+            scale = 0.25,
             -- optional tint, scale, etc.
         }
         },

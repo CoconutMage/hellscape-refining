@@ -11,7 +11,7 @@ data:extend({
     {
         type = "resource",
         name = "hematite-ore",
-        icon = "__hellscape-refining__/graphics/icons/temp-hematite-ore.png",
+        icon = "__hellscape-refining__/graphics/icons/hematite-ore.png",
         icon_size = 128,
 
         flags = {"placeable-neutral"},
@@ -31,9 +31,10 @@ data:extend({
         sheet = {
             filename = "__hellscape-refining__/graphics/entity/hematite-ore/temp-hematite-ore.png",
             priority = "extra-high",
-            size = 180,
+            size = 128,
             frame_count = 1,
             variation_count = 1,
+            scale = 0.25,
             -- optional tint, scale, etc.
         }
         },
