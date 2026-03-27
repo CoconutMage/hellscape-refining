@@ -7,6 +7,8 @@ Respawn an ore patch when one is mined?
 Drilling fluid, must drill oil well before can be pumped
 Melting steel/Iron back into molten iron?
 Direct Shipping Ore vs Benefication Ore
+Oil temp 100 - 200 for sulfiric, higher maintenance cost?
+Underground mine varients?
 
 Recipe counts and throughput balancing
 Ore grade mechanics (Fe% vs Impurities, Moisture)
@@ -70,6 +72,7 @@ Ore Types:
 	Cuprite - Easist to direct smelt, maybe/probably can be leached also?
 	Malachite - More energy intensive to direct smelt, should be leached
 	Chalcopyrite - Copper Iron Sulfide, requires special tree
+	Underground Oxide Deposit - In-situ copper deposit
 - Aluminum
 Ore:
 	Bauxite (Iron Oxide, Silica, titania impurities)
@@ -97,7 +100,7 @@ Ore Types:
 	Recovered from batteries
 - Zinc
 	See Above
-- Chrome
+- Chrome (85% for steel, chemical catalysts, corrision resistant plates, high temp superalloy - space, turbines, nuclear reactors)
 - Cobalt
 - Gold
 - Magnesium
