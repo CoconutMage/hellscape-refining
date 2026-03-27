@@ -32,6 +32,8 @@ require("prototypes.items.copper-ores")
 require("prototypes.entities.oil-gas-separator")
 require("prototypes.entities.deep-oil-drill")
 require("prototypes.entities.bore-drill")
+require("prototypes.entities.ore-crushers.jaw-crusher")
+require("prototypes.entities.ore-screeners.trommel-screener")
 
 
 require("prototypes.fluids.drilling-fluid")

@@ -16,6 +16,8 @@ Graphics borrowed from SpEx Bryle
 In-Situ leaching?
 Polymetallic nodules?
 
+1 item is kg?
+
 
 Minimum pre-industrial sources but few for certain trees like oil to bootstrap chemistry
 
@@ -63,6 +65,11 @@ Ore Types:
 	Porphyry (Copper Sulfide, Chalcocite)
 	Copper Oxide deposit? (Malachite, Cuprite, Native Copper)
 	Volcanogenic Vent (Copper/Zinc/Lead) (Chalcopyrite, Pyrite, Sphalerite)?
+
+
+	Cuprite - Easist to direct smelt, maybe/probably can be leached also?
+	Malachite - More energy intensive to direct smelt, should be leached
+	Chalcopyrite - Copper Iron Sulfide, requires special tree
 - Aluminum
 Ore:
 	Bauxite (Iron Oxide, Silica, titania impurities)
