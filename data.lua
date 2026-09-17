@@ -3,6 +3,7 @@ require("prototypes.recipes.bore-drill")
 require("prototypes.recipes.deep-oil-drill")
 require("prototypes.recipes.drilling-fluid")
 require("prototypes.recipes.oil-gas-separation")
+require("prototypes.recipes.ore-crushing")
 
 
 require("prototypes.resources.categories")
