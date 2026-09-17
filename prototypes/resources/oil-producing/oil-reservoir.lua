@@ -66,7 +66,7 @@ data:extend({
           name = "used-drilling-fluid",
           amount_min = 10,
           amount_max = 10,
-          probability = 1
+          independent_probability = 1
         }
       },
       fluid_amount = 100,

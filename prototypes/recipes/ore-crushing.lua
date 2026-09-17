@@ -1,10 +1,19 @@
 data:extend({
     {
+        type = "recipe-category",
+        name = "crushing"
+    },
+    {
+        type = "recipe-category",
+        name = "screening"
+    },
+    {
         type = "recipe",
         name = "hr-hematite-crushing",
-        category = "crafting",
-        enabled = false,
+        categories = {"crushing"},
+        enabled = true,
         energy_required = 2,
+        main_product = "crushed-hematite",
         ingredients = {
             {type="item", name="raw-hematite", amount=1},
         },
@@ -15,9 +24,10 @@ data:extend({
       {
         type = "recipe",
         name = "hr-hematite-screening",
-        category = "crafting",
-        enabled = false,
+        categories = {"screening"},
+        enabled = true,
         energy_required = 2,
+        main_product = "lump-hematite",
         ingredients = {
             {type="item", name="crushed-hematite", amount=2},
         },

@@ -69,7 +69,7 @@ data:extend(
           shift = util.by_pixel(6, 0.5)
         }
       }
-    },
+    },--[[
     graphics_set =
     {
       animation =
@@ -104,7 +104,7 @@ data:extend(
           }
         }
       }
-    },
+    },]]
     open_sound = {filename = "__base__/sound/open-close/pumpjack-open.ogg", volume = 0.5},
     close_sound = {filename = "__base__/sound/open-close/pumpjack-close.ogg", volume = 0.5},
     working_sound =

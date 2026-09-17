@@ -6,7 +6,7 @@ data:extend({
     {
         type = "item",
         name = "raw-anthracite-coal",
-        icon = "__hellscape-refining__/graphics/icons/raw-anthracite-coal.png",
+        icon = "__hellscape-refining__/graphics/icons/ores/coal/raw-anthracite-coal.png",
         icon_size = 64,
         stack_size = 50,
 
@@ -22,7 +22,7 @@ data:extend({
       {
         type = "item",
         name = "raw-bituminous-coal",
-        icon = "__hellscape-refining__/graphics/icons/raw-bituminous-coal.png",
+        icon = "__hellscape-refining__/graphics/icons/ores/coal/raw-bituminous-coal.png",
         icon_size = 64,
         stack_size = 50,
 
@@ -38,7 +38,7 @@ data:extend({
       {
         type = "item",
         name = "raw-lignite-coal",
-        icon = "__hellscape-refining__/graphics/icons/raw-lignite-coal.png",
+        icon = "__hellscape-refining__/graphics/icons/ores/coal/raw-lignite-coal.png",
         icon_size = 64,
         stack_size = 50,
 
@@ -54,7 +54,7 @@ data:extend({
       {
         type = "item",
         name = "raw-peat",
-        icon = "__hellscape-refining__/graphics/icons/raw-peat.png",
+        icon = "__hellscape-refining__/graphics/icons/ores/coal/raw-peat.png",
         icon_size = 64,
         stack_size = 50,
 

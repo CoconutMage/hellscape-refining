@@ -11,7 +11,7 @@ data:extend({
     {
         type = "resource",
         name = "anthracite-coal-ore",
-        icon = "__hellscape-refining__/graphics/icons/anthracite-coal-ore.png",
+        icon = "__hellscape-refining__/graphics/icons/ores/coal/anthracite-coal-ore.png",
         icon_size = 64,
 
         flags = {"placeable-neutral"},

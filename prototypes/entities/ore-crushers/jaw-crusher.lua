@@ -19,10 +19,11 @@ data:extend({
     name = "jaw-crusher",
     icon = "__hellscape-refining__/graphics/icons/jaw-crusher.png",
     icon_size = 128,
+    vector_to_place_result = {0.0, 1.7},
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "jaw-crusher"},
     crafting_categories = {
-        "crafting",
+        "crushing",
     },
     max_health = 200,
     heating_energy = "400kW",
@@ -41,7 +42,6 @@ data:extend({
         emissions_per_minute = { pollution = 5 },
     },
     energy_usage = "300kW",
-    vector_to_place_result = {0, 0},
     module_slots = 2,
     resistances = {
         { type = "physical", percent = 50 },

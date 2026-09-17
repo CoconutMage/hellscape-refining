@@ -20,6 +20,7 @@ Polymetallic nodules?
 
 1 item is kg?
 
+Negative Oil is broken
 
 Minimum pre-industrial sources but few for certain trees like oil to bootstrap chemistry
 
@@ -54,9 +55,12 @@ Gangue
 Ores
 - Iron
 Ore Types:
+	Base:
     High-Grade Hematite (DSO)
     Magnetite (Less impurities, easier route to steel)
     Taconite (Hematite or Magnetite mostly, Banded Iron Formation)
+
+	Addon:
     Titomagnetite
     Siderite (Carbonate ore and typically found with manganese, zinc or magnesium?)
 	Nickel-Iron Alloy in space
