@@ -10,7 +10,7 @@ data:extend({
     {
         type = "recipe",
         name = "hr-hematite-crushing",
-        category = "crushing",
+        categories = {"crushing"},
         enabled = true,
         energy_required = 2,
         main_product = "crushed-hematite",
@@ -24,7 +24,7 @@ data:extend({
       {
         type = "recipe",
         name = "hr-hematite-screening",
-        category = "screening",
+        categories = {"screening"},
         enabled = true,
         energy_required = 2,
         main_product = "lump-hematite",

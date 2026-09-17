@@ -20,6 +20,7 @@ Polymetallic nodules?
 
 1 item is kg?
 
+Negative Oil is broken
 
 Minimum pre-industrial sources but few for certain trees like oil to bootstrap chemistry
 

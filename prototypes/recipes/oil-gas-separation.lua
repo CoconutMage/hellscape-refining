@@ -2,7 +2,7 @@ data:extend({
     {
     type = "recipe",
     name = "separate-well-stream",
-    category = "oil-gas-separation",
+    categories = {"oil-gas-separation"},
     energy_required = 2,
 
     icon = "__hellscape-refining__/graphics/entity/oil-gas-separator.png",
@@ -27,7 +27,7 @@ data:extend({
     {
     type = "recipe",
     name = "separate-well-stream-hot",
-    category = "oil-gas-separation",
+    categories = {"oil-gas-separation"},
     energy_required = 2,
 
     icon = "__hellscape-refining__/graphics/entity/oil-gas-separator.png",

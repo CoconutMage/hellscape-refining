@@ -362,6 +362,7 @@ local function drillOil(e)
       end
 
       -- insert_fluid chooses a fluidbox that accepts the fluid (filters/volume apply)
+      -- This is broken
       local inserted = well.insert_fluid{ name = fluid_name, amount = per_well, temperature = 25 } or 0
       produced = produced + inserted
     end

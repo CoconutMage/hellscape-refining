@@ -1,3 +1,11 @@
+hellscape = hellscape or {}
+hellscape.functions = hellscape.functions or {}
+require("prototypes.hellscape-functions")
+require("prototypes.refining-category")
+require("prototypes.buildings.clarifier")
+
+
+
 require("prototypes.recipes.recipes")
 require("prototypes.recipes.bore-drill")
 require("prototypes.recipes.deep-oil-drill")
@@ -39,3 +47,5 @@ require("prototypes.entities.ore-screeners.trommel-screener")
 
 require("prototypes.fluids.drilling-fluid")
 require("prototypes.fluids.well-stream")
+
+

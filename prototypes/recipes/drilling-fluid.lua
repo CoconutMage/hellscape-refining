@@ -2,7 +2,7 @@ data:extend({
   {
     type = "recipe",
     name = "drilling-fluid",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 2,
     ingredients = {
