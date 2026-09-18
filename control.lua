@@ -1,5 +1,4 @@
 local RESOURCE_NAME = "oil-reservoir"   -- your resource entity name
-local RESOURCE_NAME_TWO = "crude-oil"
 local NEW_RESOURCE = "crude-oil"
 local RESPAWN_AMOUNT = 2000         -- amount for the new well (finite resource)
 local SEARCH_RADIUS = 12              -- how far we look for an empty spot (if same tile blocked)
@@ -351,7 +350,9 @@ local function drillOil(e)
 
     local per_well = q_total / n
     local produced = 0
-    local fluid_name = r.produced_fluid or "crude-oil"
+    local fluid_name = r.produced_fluid or "well-stream"
+
+    log("Fluid: " ..fluid_name)
 
     for i = 1, n do
       local well = r.wells[i]
@@ -361,9 +362,10 @@ local function drillOil(e)
         return
       end
 
+      log("Insert: " ..(25 * per_well))
       -- insert_fluid chooses a fluidbox that accepts the fluid (filters/volume apply)
       -- This is broken
-      local inserted = well.insert_fluid{ name = fluid_name, amount = per_well, temperature = 25 } or 0
+      local inserted = well.insert_fluid{ name = fluid_name, amount = per_well, temperature = 2.5 * per_well } or 0
       produced = produced + inserted
     end
 

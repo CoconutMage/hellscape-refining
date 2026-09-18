@@ -26,7 +26,7 @@ data:extend({
     type = "item-subgroup",
     name = "hellscape-refining-building",
     group = "hellscape-refining",
-    order = "b",
+    order = "d",
   },
 
 
