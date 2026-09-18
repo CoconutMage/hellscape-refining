@@ -12,6 +12,7 @@ data:extend({
   {
     type = "item",
     name = "jaw-crusher",
+    subgroup = "hellscape-refining-building",
     icon = "__hellscape-refining__/graphics/entity/jaw-crusher/jaw-crusher.png",
     icon_size = 128,
     place_result = "jaw-crusher",
@@ -20,6 +21,7 @@ data:extend({
   {
     type = "item",
     name = "trommel-screener",
+    subgroup = "hellscape-refining-building",
     icon = "__hellscape-refining__/graphics/entity/trommel-screener/trommel-screener.png",
     icon_size = 128,
     place_result = "trommel-screener",
