@@ -1,31 +1,3 @@
-circuit_connector_definitions["angels-clarifier"] =
-  circuit_connector_definitions.create_vector(universal_connector_template, {
-    {
-      variation = 6,
-      main_offset = util.by_pixel(67, 63),
-      shadow_offset = util.by_pixel(67, 63),
-      show_shadow = true,
-    },
-    {
-      variation = 6,
-      main_offset = util.by_pixel(67, 63),
-      shadow_offset = util.by_pixel(67, 63),
-      show_shadow = true,
-    },
-    {
-      variation = 6,
-      main_offset = util.by_pixel(67, 63),
-      shadow_offset = util.by_pixel(67, 63),
-      show_shadow = true,
-    },
-    {
-      variation = 6,
-      main_offset = util.by_pixel(67, 63),
-      shadow_offset = util.by_pixel(67, 63),
-      show_shadow = true,
-    },
-  })
-
 data:extend({
   {
     type = "item",
@@ -36,7 +8,7 @@ data:extend({
         icon_size = 64
       },
     },
-    subgroup = "angels-water-treatment-building",
+    subgroup = "hellscape-refining-building",--"angels-water-treatment-building",
     order = "c[clarifier]",
     place_result = "angels-clarifier",
     stack_size = 10,

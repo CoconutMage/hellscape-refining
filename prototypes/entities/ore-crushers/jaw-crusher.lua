@@ -19,11 +19,13 @@ data:extend({
     name = "jaw-crusher",
     icon = "__hellscape-refining__/graphics/icons/jaw-crusher.png",
     icon_size = 128,
+    subgroup = "hellscape-refining-building",
     vector_to_place_result = {0.0, 1.7},
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "jaw-crusher"},
     crafting_categories = {
         "crushing",
+        --"hellscape-refining"
     },
     max_health = 200,
     heating_energy = "400kW",

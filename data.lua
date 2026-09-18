@@ -3,6 +3,9 @@ hellscape.functions = hellscape.functions or {}
 require("prototypes.hellscape-functions")
 require("prototypes.refining-category")
 require("prototypes.buildings.clarifier")
+require("prototypes.entities.ore-crushers.jaw-crusher-2")
+
+
 
 
 
