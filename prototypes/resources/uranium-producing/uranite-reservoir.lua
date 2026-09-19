@@ -21,7 +21,7 @@ data:extend({
 		{
 			mining_time = 1,
 			fluid_amount = 250,
-			required_fluid = "water",
+			required_fluid = "isl-fluid",
 			results =
 			{
 				{
@@ -49,18 +49,19 @@ data:extend({
 			resource_index = resource_autoplace.resource_indexes["crude-oil"],
 			regular_rq_factor_multiplier = 1
 		},]]
-    stage_counts = {0},
-    stages = {
-      sheet = {
-        filename = "__hellscape-refining__/graphics/icons/drill-spot.png",
-        priority = "extra-high",
-        width = 32,
-        height = 32,
-        frame_count = 4,
-        variation_count = 1,
-        shift = {0, 0},
-        scale = 1
-      }
-    }
+		stage_counts = {0},
+		stages = 
+		{
+			sheet = {
+				filename = "__hellscape-refining__/graphics/icons/drill-spot.png",
+				priority = "extra-high",
+				width = 32,
+				height = 32,
+				frame_count = 4,
+				variation_count = 1,
+				shift = {0, 0},
+				scale = 1
+			}
+		}
 	}
 })

@@ -21,6 +21,8 @@ require("prototypes.items.nuclear-refining.injection-recovery-well")
 require("prototypes.fluids.drilling-fluid")
 require("prototypes.fluids.well-stream")
 require("prototypes.fluids.uranium-enriched-solution")
+require("prototypes.fluids.hydrogen-peroxide")
+require("prototypes.fluids.isl-fluid")
 
 -- Resources ----------------------------------------------------------------------------
 require("prototypes.resources.oil-producing.oil-reservoir")
@@ -45,6 +47,8 @@ require("prototypes.recipes.deep-oil-drill")
 require("prototypes.recipes.drilling-fluid")
 require("prototypes.recipes.oil-gas-separation")
 require("prototypes.recipes.ore-crushing")
+
+require("prototypes.recipes.isl-fluid")
 
 -- Categories ---------------------------------------------------------------------------
 require("prototypes.categories.item-groups.nuclear-refining")

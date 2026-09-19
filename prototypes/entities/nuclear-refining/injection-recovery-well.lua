@@ -34,7 +34,7 @@ data:extend({
 				}
 			},
 			volume = 1000,
-			filter = "water"
+			filter = "isl-fluid"
 		},
 		output_fluid_box = 
 		{
